@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+  }
+  #header-section {
+    
+    padding: 0.3em;
+    overflow: hidden;
+    height: 20%;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  header img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+  
+    top: 0.3em;
+  }
+  header h1 {
+    position: absolute;
+  
+    left: 20%;
+    bottom: 40%;
+    padding: 2px 2px;
+    font-weight: bold;
+    /* margin-top: -10vh; */
+    font-size: 1.5em;
+    text-shadow: 2px 2px 8px #ce531b;
+    color: rgb(5, 2, 10);
+  }
+  
+  #select-burger {
+    margin: 0.3em;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border: 0.05cm dashed white;
+  }
+  #select_burger h1 {
+    margin: 1em 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .burger-wrapper {
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 25vw 25vw 25vw;
+  }
+  .burger-wrapper h1 {
+    font-size: large;
+    margin-left: 4%;
+  }
+  .burger {
+    padding: 0.5em;
+    border-radius: 1em;
+  }
+  .burger ul {
+    list-style-type: disc;
+  }
+  .burger.a3 input[type="checkbox"] {
+    /* -webkit-appearance: none; */
+    width: 2em;
+    height: 2em;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #555;
+  }
+  .burger img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    border: 0.1em solid rgb(228, 215, 215);
+  }
+  #customer_id {
+    margin: 0.3em;
+    padding: 1em;
+    border: 0.05cm dashed black;
+  }
+  #customer_id h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+  }
+  form {
+    padding: 0 auto;
+  }
+  form label {
+    padding-top: 2px;
+  }
+  form input[type="text"],
+  input[type="email"],
+  select {
+    width: 40%;
+    font-size: 1em;
+    border-radius: 20px;
+  }
+  #submit-button {
+    position: relative;
+    left: 35%;
+    width: "2.5em";
+    height: "1.2em";
+  
+    background-color: #c2cce0;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.1em 0.8em;
+    border: 0.05cm solid rgb(167, 187, 201);
+    cursor: pointer;
+    border-radius: 0.8em;
+    text-align: center;
+    margin: 0 0.3em 0 0.3em;
+  }
+  #submit_buttton img {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0 0.2em;
+  }
+  .order_detail {
+    padding: 0.2em;
+  }
+  #order_section {
+    display: none;
+  }
+  #order_section h1,
+  h2 {
+    font-weight: bold;
+    padding: 0.1em;
+  }
+  #order_section h3 {
+    padding: 0 1.5em;
+  }
+  #order_section ul {
+    list-style-type: disc;
+    margin: 0 0.5em;
+    padding: 0 1em;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
